@@ -10,7 +10,7 @@
   <body>
     <div id="agrupar"><!--he puesto div porque es lo que permite dividir la página en cajas-->
       <header id="cabecera">
-        <h1>LA FRUTERIA.COM</h1>
+        <img src="lafruterialogo.png" id ="logo">
       </header>
       <nav id="menu">
         <ul>
@@ -28,21 +28,18 @@
         <h2>¡VAMOS DE COMPRAS!</h2>
       </hgroup>
   </header>
-    <span>Para tener las mejores frutas y legumbres en tu hogar vamos a hacer un lista.</span>
-    <ul id="listaVacia">
-    </ul>
+    <p>Para tener las mejores frutas y legumbres en tu hogar vamos a hacer un lista.</p>
+    <div id= "lista">
+    <ol id="listaVacia">
+    </ol>
     <form>
       <input type="text" placeholder="Pon tu Fruta" id="frutaNueva">
-      <input type="submit" onclick="return agregarItem()" value="Ponlo en tu Bolsa">
-      <input type="button" onclick="quitarItem()" value="Sacar de la Bolsa">
+      <input type="submit" onclick="return agregarItem()" value="Ponlo en tu Bolsa" class="boton">
+      <input type="button" onclick="quitarItem()" value="Sacar de la Bolsa" class="boton">
     </form>
+  </div>
     <figure>
-      <img src="http://minkbooks.com/
-      content
-      /myimage.jpg">
-      <figcaption>
-      De los mejores productores a las puertas de tu hogar
-      </figcaption>
+      <img src= "caja.png">
     </figure>
   <footer>
     <p>TIP: Para hacer rendir tu economía y ayudar al planeta, trata de escoger frutas de temporada</p>
