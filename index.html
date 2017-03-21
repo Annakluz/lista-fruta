@@ -2,9 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>LA FRUTERIA</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Luckiest+Guy|Share" rel="stylesheet">
+    <link rel="stylesheet" href="lafruteria.css">
+    <script src="lafruteria.js"></script>
   </head>
   <body>
-    <span>hola</span>      
+    <div id="agrupar"><!--he puesto div porque es lo que permite dividir la página en cajas-->
+      <header id="cabecera">
+        <h1>LA FRUTERIA.COM</h1>
+      </header>
+      <nav id="menu">
+        <ul>
+          <li>Quienes somos</li>
+          <li>Porque comprar aqui</li>
+          <li>Nuestros proveedores</li>
+          <li>Tienda</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <section id="seccion">
+      <article>
+  <header>
+      <hgroup>
+        <h2>¡VAMOS DE COMPRAS!</h2>
+      </hgroup>
+  </header>
+    <span>Para tener las mejores frutas y legumbres en tu hogar vamos a hacer un lista.</span>
+    <ul id="listaVacia">
+    </ul>
+    <form>
+      <input type="text" placeholder="Pon tu Fruta" id="frutaNueva">
+      <input type="submit" onclick="return agregarItem()" value="Ponlo en tu Bolsa">
+      <input type="button" onclick="quitarItem()" value="Sacar de la Bolsa">
+    </form>
+    <figure>
+      <img src="http://minkbooks.com/
+      content
+      /myimage.jpg">
+      <figcaption>
+      De los mejores productores a las puertas de tu hogar
+      </figcaption>
+    </figure>
+  <footer>
+    <p>TIP: Para hacer rendir tu economía y ayudar al planeta, trata de escoger frutas de temporada</p>
+  </footer>
+  </article>
+  </section>
+<aside id="columna">
+<blockquote>¿Necesitas ayuda?</blockquote>
+<blockquote>Catalogo y ofertas de la semana</blockquote>
+</aside>
+<footer id="pie"> <!--le he puesto id por que ya tengo otro footer -->
+Derechos Reservados LA FRUTERIA .COM 2017-2018
+</footer>
+
+    </div>
   </body>
 </html>
