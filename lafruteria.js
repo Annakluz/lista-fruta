@@ -11,5 +11,5 @@ return false;
 }
 function eliminar(){
       var quitar=document.getElementById('listaVacia');
-      quitar.parentNode.removeChild(quitar);
+      quitar.removeChild(quitar.lastElementChild);
      }
