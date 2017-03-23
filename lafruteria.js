@@ -5,6 +5,11 @@ function agregarItem(){
     li.id = fruta;
     li.innerHTML = fruta;
     document.getElementById('listaVacia').appendChild(li);
+    document.getElementById('frutaNueva').value = ""
   }
 return false;
 }
+function eliminar(){
+      var quitar=document.getElementById('listaVacia');
+      quitar.parentNode.removeChild(quitar);
+     }
